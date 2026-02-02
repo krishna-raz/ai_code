@@ -1,8 +1,8 @@
 const Founder = () => {
   return (
-    <div className="bg-gray-50 min-h-screen py-16">
+    <div className="bg-gray-50/80 backdrop-blur-sm min-h-screen py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-2xl shadow-xl overflow-hidden animate-fade-in-up">
+        <div className="bg-white/95 rounded-2xl shadow-xl overflow-hidden animate-fade-in-up">
           <div className="md:flex">
             <div className="md:shrink-0">
               <img

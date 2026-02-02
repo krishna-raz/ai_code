@@ -11,7 +11,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen py-16">
+    <div className="bg-gray-50/80 backdrop-blur-sm min-h-screen py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 mb-4 animate-fade-in-up">Contact Us</h1>
@@ -25,7 +25,7 @@ const Contact = () => {
           <div className="space-y-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             {/* Info Cards */}
             <div className="grid grid-cols-1 gap-6">
-              <div className="bg-white p-6 rounded-xl shadow-md flex items-center hover:shadow-lg transition-shadow">
+              <div className="bg-white/95 p-6 rounded-xl shadow-md flex items-center hover:shadow-lg transition-shadow">
                 <div className="bg-blue-100 p-3 rounded-full mr-4">
                   <MapPin className="h-6 w-6 text-blue-600" />
                 </div>
@@ -35,7 +35,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-xl shadow-md flex items-center hover:shadow-lg transition-shadow">
+              <div className="bg-white/95 p-6 rounded-xl shadow-md flex items-center hover:shadow-lg transition-shadow">
                 <div className="bg-blue-100 p-3 rounded-full mr-4">
                    <Phone className="h-6 w-6 text-blue-600" />
                 </div>
@@ -45,7 +45,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-xl shadow-md flex items-center hover:shadow-lg transition-shadow">
+              <div className="bg-white/95 p-6 rounded-xl shadow-md flex items-center hover:shadow-lg transition-shadow">
                 <div className="bg-blue-100 p-3 rounded-full mr-4">
                   <Mail className="h-6 w-6 text-blue-600" />
                 </div>
@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
 
             {/* Form */}
-            <div className="bg-white p-8 rounded-xl shadow-md">
+            <div className="bg-white/95 p-8 rounded-xl shadow-md">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a message</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>

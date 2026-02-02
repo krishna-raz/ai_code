@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Menu, X, Heart } from 'lucide-react';
+import Logo3D from './Logo3D';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center gap-2">
+              <Logo3D />
               <span className="text-2xl font-bold text-blue-700">Andes Foundation</span>
             </Link>
           </div>

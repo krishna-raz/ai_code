@@ -1,8 +1,8 @@
 const About = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white/80 backdrop-blur-sm min-h-screen">
       {/* Header */}
-      <div className="bg-blue-700 py-16 text-center text-white">
+      <div className="bg-blue-700/95 py-16 text-center text-white">
         <h1 className="text-4xl font-bold animate-fade-in-up">About Us</h1>
         <p className="mt-4 text-xl text-blue-100 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>Building a brighter future through education</p>
       </div>

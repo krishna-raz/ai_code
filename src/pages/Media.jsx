@@ -24,7 +24,7 @@ const newsItems = [
 
 const Media = () => {
   return (
-    <div className="bg-gray-50 min-h-screen py-16">
+    <div className="bg-gray-50/80 backdrop-blur-sm min-h-screen py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 mb-4 animate-fade-in-up">Media & News</h1>

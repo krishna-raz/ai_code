@@ -45,7 +45,7 @@ const Home = () => {
       </section>
 
       {/* Video Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-50/90 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Empowering the Future</h2>
           <p className="text-gray-600 mb-12 max-w-2xl mx-auto">

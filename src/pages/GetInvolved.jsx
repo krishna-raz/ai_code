@@ -9,9 +9,9 @@ const GetInvolved = () => {
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className="bg-gray-50/80 backdrop-blur-sm min-h-screen">
       {/* Hero */}
-      <div className="bg-blue-700 py-16 text-center text-white">
+      <div className="bg-blue-700/95 py-16 text-center text-white">
         <h1 className="text-4xl font-bold animate-fade-in-up">Get Involved</h1>
         <p className="mt-4 text-xl text-blue-100 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>Join us in making a difference</p>
       </div>
@@ -19,9 +19,9 @@ const GetInvolved = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-20">
 
         {/* Donate Section */}
-        <div className="bg-white rounded-2xl shadow-xl overflow-hidden animate-fade-in-up">
+        <div className="bg-white/95 rounded-2xl shadow-xl overflow-hidden animate-fade-in-up">
           <div className="md:flex">
-             <div className="md:w-1/2 bg-blue-600 p-8 md:p-12 text-white flex flex-col justify-center">
+             <div className="md:w-1/2 bg-blue-600/95 p-8 md:p-12 text-white flex flex-col justify-center">
                 <h2 className="text-3xl font-bold mb-6">Donate Now</h2>
                 <p className="text-lg text-blue-100 mb-8 leading-relaxed">
                   Your contribution can change a life. Every donation helps us provide books, education, and support to children who need it most.
@@ -42,7 +42,7 @@ const GetInvolved = () => {
                    </p>
                 </div>
              </div>
-             <div className="md:w-1/2 p-8 md:p-12 flex flex-col items-center justify-center bg-gray-50">
+             <div className="md:w-1/2 p-8 md:p-12 flex flex-col items-center justify-center bg-gray-50/50">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Scan to Pay</h3>
                 <div className="bg-white p-4 rounded-xl shadow-lg border border-gray-200">
                   {/* Placeholder QR Code */}
@@ -73,7 +73,7 @@ const GetInvolved = () => {
               />
            </div>
 
-           <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+           <div className="bg-white/95 p-8 rounded-xl shadow-lg border border-gray-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Volunteer Registration</h3>
               <form onSubmit={handleVolunteerSubmit} className="space-y-6">
                 <div>
