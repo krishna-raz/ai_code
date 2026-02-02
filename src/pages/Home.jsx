@@ -1,27 +1,24 @@
 import { Link } from 'react-router-dom';
 import { Heart, Users, Mail } from 'lucide-react';
+import Hero3D from '../components/Hero3D';
 
 const Home = () => {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative h-[calc(100vh-64px)] min-h-[600px] flex items-center justify-center text-white">
-        {/* Background Image */}
-        <div className="absolute inset-0 overflow-hidden">
-          <img
-            src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
-            alt="Children studying outdoors"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/60"></div>
-        </div>
+      <section className="relative h-[calc(100vh-64px)] min-h-[600px] flex items-center justify-center text-white overflow-hidden">
+        {/* 3D Background */}
+        <Hero3D />
+
+        {/* Overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60 pointer-events-none"></div>
 
         {/* Content */}
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-fade-in-up">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-lg">
             Free Education for Every Child
           </h1>
-          <p className="text-xl md:text-2xl mb-8 font-light text-gray-100">
+          <p className="text-xl md:text-2xl mb-8 font-light text-white drop-shadow-md">
             Empowering poor children through education & awareness
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
